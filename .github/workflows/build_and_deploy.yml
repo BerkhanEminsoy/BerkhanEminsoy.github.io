@@ -3,7 +3,7 @@ name: build_and_deploy
 on:
   push:
     branches:
-      master
+      main
 
 jobs:
   jekyll:
@@ -34,4 +34,4 @@ jobs:
     - uses: helaili/jekyll-action@v2
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
-        target_branch: 'gh-pages'
+        target_branch: 'master'
