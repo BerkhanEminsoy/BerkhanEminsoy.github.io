@@ -24,7 +24,7 @@ $$
 \end{aligned}
 $$
 
-\begin{document}
+$$
 \begin{center}
 \begin{tabular}{ c c c }
  cell1 & cell2 & cell3 \\ 
@@ -32,4 +32,4 @@ $$
  cell7 & cell8 & cell9    
 \end{tabular}
 \end{center}
-\end{document}
+$$

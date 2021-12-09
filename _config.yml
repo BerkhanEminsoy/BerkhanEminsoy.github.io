@@ -126,7 +126,8 @@ minima:
 # refer to; https://github.com/jekyll/jekyll/issues/920#issuecomment-63093764
 include: 
   - _pages
-#  - _collections
+# - _collections
+  - _texposts
 
 ############################################################
 # Collections
@@ -136,7 +137,7 @@ collections:
     output: true
     sort_by: institution
   texposts:
-    output: false
+    output: true
 
 ############################################################
 # Header Pages
@@ -144,17 +145,15 @@ collections:
 # this and add the path to the pages in order as they should show up
 header_pages:
   - index.html
-#  - _pages/work.md
+# - _pages/work.md
   - _pages/log.md
   - _pages/cv.md
   - _pages/about.md
-#  - _pages/history.md
+# - _pages/history.md
 
 ############################################################
 # Plugins (previously gems)
 plugins:
- - asciidoctor-diagram
- - jekyll-asciidoc
  - jekyll-feed
  - jekyll-seo-tag
  - jekyll-remote-theme
@@ -267,7 +266,6 @@ asciidoctor:
     imagesdir: /images
     stem: ''
     :page-layout: auto@
-    dot: C:/Program Files/Graphviz/bin/dot.exe
-    source-highlighter: pygments
+    #dot: C:/Program Files/Graphviz/bin/dot.exe
     icons: font
     stylesdir: /assets/css/ascii
