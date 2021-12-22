@@ -31,7 +31,6 @@ if mode=="draft" then
 elseif mode=="publish" then
   -- Make:htlatex {}
   Make:match("html$", domprocess)
-  Make:enable_extension "tidy"
   Make:enable_extension "staticsite"
   Make:htlatex {}
 else

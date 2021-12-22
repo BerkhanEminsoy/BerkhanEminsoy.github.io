@@ -34,4 +34,4 @@ jobs:
      uses: stefanzweifel/git-auto-commit-action@v4
      with:
        commit_message: Save generated files
-       file_pattern: /*
+       file_pattern: _posts/*
