@@ -1,0 +1,24 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.10) (preloaded format=latex 2021.12.22)  22 DEC 2021 15:54
+entering extended mode
+**\makeatletter\def\HCode{\futurelet\HCode\HChar}\def\HChar{\ifx\HCode\def\HCod
+e##1{\Link##1}\expandafter\HCode\else\expandafter\Link\fi}\def\Link#1.a.b.c.{\A
+ddToHook{class/before}{\RequirePackage[#1,html]{tex4ht}}\let\HCode\documentstyl
+e\def\documentstyle{\let\documentstyle\HCode\expandafter\def\csname tex4ht\endc
+sname{#1,html}\def\HCode####1{\documentstyle[tex4ht,}\@ifnextchar[{\HCode}{\doc
+umentstyle[tex4ht]}}}\makeatother\HCode xhtml,,charset=utf-8,html5.a.b.c.\input
+ \detokenize{beCV.tex} > nul 2>&1
+! Emergency stop.
+<*> ...8,html5.a.b.c.\input \detokenize{beCV.tex} 
+                                                  > nul 2>&1
+*** (job aborted, file error in nonstop mode)
+
+ 
+Here is how much of TeX's memory you used:
+ 18 strings out of 478666
+ 344 string characters out of 2853646
+ 295643 words of memory out of 3000000
+ 18225 multiletter control sequences out of 15000+600000
+ 403430 words of font info for 27 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 12i,0n,19p,540b,10s stack positions out of 5000i,500n,10000p,200000b,80000s
+No pages of output.
