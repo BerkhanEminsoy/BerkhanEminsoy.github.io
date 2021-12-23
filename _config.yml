@@ -263,7 +263,7 @@ asciidoctor:
   base_dir: :docdir
   safe: unsafe
   attributes:
-    imagesdir: /asciiImg
+    imagesdir: /assets/img/asciiImg
     stem: ''
     :page-layout: auto@
     #dot: C:/Program Files/Graphviz/bin/dot.exe

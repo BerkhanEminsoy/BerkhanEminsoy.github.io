@@ -10,6 +10,12 @@ layout: default
       <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
         {{ page.date | date: date_format }}
       </time>
+      <br>
+      <span><em>–last modified;</em></span>
+      <editTime class="dt-lastEdit" datetime="{{ page.last-modified-date | date_to_xmlschema }}" itemprop="dateLastEdit">
+      </editTime>
+        {{ page.last-modified-date | date: date_format }}
+      </editTime>
       {%- if page.modified_date -%}
         ~ 
         {%- assign mdate = page.modified_date | date_to_xmlschema -%}
